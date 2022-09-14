@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="odt.css">
+    <script src="odt.js"></script>
+    <title>odt</title>
+</head>
+<body>
+    <!-- menu -->
+    <div class="menuPage hidden">
+        <img class="exitMenuButton" src="./assets/media/SVG/exitButton.svg">
+        <div class="station odt  menuBg">דף הבית</div>
+        <div class="mapButton home-page  menuBg">מפת המתחם</div>
+        <div class="station spider  menuBg">קורי עכביש</div>
+        <div class="station blind  menuBg">הולכת עיוור</div>
+        <div class="station keyboard  menuBg">מקלדת</div>
+        <div class="station spiral  menuBg">ספירלה</div>
+        <div class="station xAndY  menuBg">Y & X</div>
+        <div class="station raft  menuBg">רפסודה</div>
+        <div class="station hand  menuBg">יד ביד</div>
+    </div>
+    <!-- home -->
+    <div id="home-page" class="">
+        <img class="menuButton" src="./assets/media/SVG/menuButton.svg">
+        <div class="container">
+            <img class="title centerX" src="./assets/media/SVG/welcomeHeadline.svg">
+            <video class="centerX" width="320" height="240" controls>
+                <source src="./assets/media/video/welcome.mp4" type="video/mp4">
+            </video>
+            <div class="textHomePage centerX">
+                <div> מה הן סדנאות הOdt</div>
+                <img class="questionMark" src="./assets/media/SVG/questionMark.svg">
+            </div>
+            <div class="mainPageText centerX">
+                סדנאות בהן אנו יוצאים מהמרחב הסגור בו אנו רגילים ללמוד ולעבוד, אל המרחבים הפתוחים שבאמצעותם ניתן לפתח כישורי מנהיגות ועבודת צוות באמצעות פעילויות בשטח.<br>המשתתפים לוקחים חלק בפעילויות השונות בסיוע מדריך או יועץ, שמאפשר להם לעבד את חוויותיהם ומסייע להם לבצע העברה של הידע והכישורים שפיתחו בהקשר עבודתם.
+            </div>
+            <div class="mapButtonContainer centerX">
+                <img class="mapButton home-page centerX" src="./assets/media/SVG/mapButton.svg">
+                <div>מפת המתחם</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- map -->
+    <div id="map-page" class="hidden">
+        <div class="container">
+            <img class="exitButton" src="./assets/media/SVG/exitButton.svg">
+            <img class="title centerX" src="./assets/media/SVG/mapHeadline.svg">
+            <div id="map">
+                <div class="station xAndY xAndYStation"></div>
+                <div class="station keyboard keyboardStation"></div>
+                <div class="station blind blindStation blindStation1"></div>
+                <div class="station blind blindStation blindStation2"></div>
+                <div class="station hand handStation"></div>
+                <div class="station raft raftStation"></div>
+                <div class="station spider spiderStation"></div>
+                <div class="station spiral spiralStation"></div>
+            </div>
+            <div class="mapInstractions centerX">
+                <img class="blueSqure" src="./assets/media/SVG/blueBg.svg" alt="blue">
+                 - לחצו על הריבועים בצבע תכלת למידע על התחנות
+            </div>
+        </div>
+    </div>
+
+    <!-- meun -->
+    <div id="menu" class="hidden">
+        <div id="x" class="button">X</div>
+    </div>
+</body>
