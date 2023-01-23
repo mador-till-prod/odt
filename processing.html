@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="odt.css">
+    <script src="odt.js"></script>
+    <title>Processing</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="menuPage hidden">
+        <img class="exitMenuButton" src="./assets/media/SVG/exitButton.svg">
+        <div class="station odt  menuBg">דף הבית</div>
+        <div class="mapButton blindPage  menuBg">מפת המתחם</div>
+        <div class="station spider  menuBg">קורי עכביש</div>
+        <div class="station blind  menuBg">הולכת עיוור</div>
+        <div class="station keyboard  menuBg">מקלדת</div>
+        <div class="station spiral  menuBg">ספירלה</div>
+        <div class="station xAndY  menuBg">Y & X</div>
+        <div class="station raft  menuBg">רפסודה</div>
+        <div class="station hand  menuBg">יד ביד</div>
+        <div class="station processing  menuBg">תחנת עיבוד</div>
+    </div>
+
+    <!-- map -->
+    <div id="map-page" class="hidden">
+        <div class="container">
+            <img class="exitButton" src="./assets/media/SVG/exitButton.svg">
+            <img class="title centerX" src="./assets/media/SVG/mapHeadline.svg">
+            <div id="map">
+                <div class="station xAndY xAndYStation"></div>
+                <div class="station keyboard keyboardStation"></div>
+                <div class="station blind blindStation blindStation1"></div>
+                <div class="station blind blindStation blindStation2"></div>
+                <div class="station hand handStation"></div>
+                <div class="station raft raftStation"></div>
+                <div class="station spider spiderStation"></div>
+                <div class="station processing processingStation1"></div>
+                <div class="station processing processingStation2"></div>
+                <div class="station processing processingStation3"></div>
+            </div>
+            <div class="mapInstractions centerX">
+                <img class="blueSqure" src="./assets/media/SVG/blueBg.svg" alt="blue">
+                 - לחצו על הריבועים בצבע תכלת למידע על התחנות
+            </div>
+        </div>
+    </div>
+
+    <div id="processingPage" class="">
+        <img class="menuButton" src="./assets/media/SVG/menuButton.svg">
+        <div class="container">
+            <img class="title centerX" src="./assets/media/SVG/processHeadline.png">
+            
+            </div>
+            <img class="mapButton processingPage mapButtonStation centerX" src="./assets/media/SVG/mapButton.svg">
+
+        </div>
+    </div>
+</body>
+
+</html>

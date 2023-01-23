@@ -90,6 +90,16 @@ body, #main {
     width: 100%;
 }
 
+#processingPage {
+    background-image: url(./assets/media/SVG/processingBg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 #spiderPage {
     background-image: url(./assets/media/SVG/spiderStationBg.svg);
     background-repeat: no-repeat;
@@ -230,6 +240,19 @@ video {
     grid-area: 6/ 4/ span 1/ span 1;
 }
 
+.processingStation1 {
+    grid-area: 2/ 4/ span 1/ span 1;
+}
+
+.processingStation2 {
+    grid-area: 6/ 5/ span 1/ span 1;
+}
+
+.processingStation3 {
+    grid-area: 7/ 5/ span 1/ span 1;
+}
+
+
 ol, ul {
     padding-inline-start: 1em;
     direction: rtl;
@@ -241,6 +264,7 @@ ol, ul {
     font-size: 1.4em;
     background: -webkit-linear-gradient(180deg, #85d1f5, #0790d1);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     direction: rtl;
